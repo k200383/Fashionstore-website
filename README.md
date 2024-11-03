@@ -1,1 +1,3 @@
 # Fashionstore-website
+
+The aim of our “Fashion Store” website was to increase convenience for the user while shopping for products, and to create a website for any sample fashion store. There are two types of users available, first is the customer user and the second one is admin. Customer users could sign up and make an account along with purchase and view products, while the admin users have full control over the system. There were also 'Add to Cart', 'Wishlist', and 'Review' pages in the website. We used PHP for backend, MYSQL as a database, HTML for structure designing and CSS for web page formatting.
