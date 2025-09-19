@@ -1,0 +1,491 @@
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{ 
+    width: 20%; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 125px;
+    /* shape-outside: circle(); */
+    border: 0px;
+    border-radius: 50%;
+    /* position: sticky; */
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+   /* align-items: center; */
+    /* padding: 5px 60px; */
+    /* background-color: pink; */
+    /* justify-content: center; */
+}
+
+.navlist{
+    flex: 1;
+    /* width: 50%; */
+    /* background-color:brown; */
+    /* list-style-type: none; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: flex; */
+    text-align: right;
+    list-style: none;
+}
+
+/* .navlist li{
+    /* display: inline-block; */
+    /* list-style: none; */
+    /* padding:23px; */
+    /* padding: 26px 30px; 
+    margin-right: 20px;
+}
+*/
+
+.navlist li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: brown;
+    /* color: white; */
+}
+
+.navlist li a:hover{
+    color: black;
+    /* color:brown; */
+}
+
+.p{
+    color: white;
+}
+
+.container{
+    height: 80px;
+    max-width: 1300px;
+    margin: auto;
+    background-color: #ffd6d6;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+/* .rightnav{
+    /* width: 50%; */
+    /* background-color: brown; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: bisque; */
+    /* text-align: right;
+    padding: 0 23px; 
+} */
+
+.header{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url('../image/sale3.png'); 
+    /* /* background: url('../image/bg3.jpg');  */
+    background-size: cover;
+    background-blend-mode: lighten;
+    /* max-width: 100%; */
+    padding: 50px 0;
+    height: 100vh; 
+    
+}
+
+.row{
+    /* margin-top: 5px; */
+
+    width: 100%;
+    height: 500px;
+    /* max-zoom: 100px; */
+    /* width: 1200px; */
+    flex-direction: column;
+    /* text-align: top; */
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.col1{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: start;
+    height: 10px;
+
+    /* height: 10px;
+    text-align: start;
+    /* flex-basis: 50%; */
+    /* min-width: 300px;  */
+}
+
+.col1 h1{
+    font-size: 50px;
+    line-height: 50px;
+    margin: 25px 0;
+
+}
+
+.smallcontainer{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.categories{
+    /* position:fixed; */
+    margin: 70px 0;
+    /* /* width: auto; */
+    width: 490px; 
+}
+
+.col3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col3 img{
+    /* width: 20%;  */
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    width: 90%;
+}
+
+.categories a{
+    /* padding: 9px 100px; */
+    /* margin: 10px 500px ;  */
+    padding: 5px 200px;
+    margin: 10px 395px ; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width:30%;
+}
+
+.Explorebtn{
+    
+    text-decoration: none;
+    display: inline-block;
+    background: #cf8a8a;
+    color: white;
+  
+    padding: 8px 30px;
+    margin: 20px 0;
+    border-radius: 30px;
+    font-size: 18px;
+    /* display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; */
+}
+
+.footer{
+    background:white;
+    /* background:#cf8a8a; */
+    color: brown;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: brown;
+}
+
+.footer h1{
+    color: brown;
+    margin-bottom: 20px;
+}
+
+
+/* accountpage */
+
+/* .SESSION{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+    text-decoration: none;
+    display: inline-block;
+    background: #cf8a8a;
+    color: white;
+  
+    padding: 8px 30px;
+    /* margin: 20px 0; 
+    border-radius: 30px;
+    font-size: 18px;
+} */
+
+.accountpage{
+    /* background: rgba(0,0,0,0.7) url('../image/acc2.png');  */
+    /* background-size:cover; */
+    /* background-blend-mode: lighten; */
+    /* padding: 10px 10px;
+    height: 100vh; 
+    width: 98%; */
+    position: static;
+      top: 0;
+      left: 0;
+      /* width: 98%; */
+    /* position: relative; */
+    /* width: 80%; */
+    /* position: absolute; */
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent) */
+}
+
+.formcontainer{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    top: 130px;
+    right: 100px;
+    position: relative;
+    text-align: center;
+    /* margin:20px 0; */
+    margin: -80px -290px ; 
+    padding: 20px 5px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.formcontainer span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    /* position: absolute; */
+    /* z-index: 10; */
+    /* color: black; */
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.forms-btn{
+    /* position: absolute; */
+    display: inline-block;
+    /* color: #555; */
+}
+
+.formcontainer form{
+    max-width: 300px;
+    /* padding: 0 20px; */
+    padding: -100px 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+
+form input{
+    width: 90%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.login-btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+    text-decoration: none;
+    display: inline-block;
+    background: #cf8a8a;
+    color: white;
+  
+    padding: 8px 30px;
+    /* margin: 20px 0; */
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.login-btn:focus{
+    outline: none;
+}
+
+.register-btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+    text-decoration: none;
+    display: inline-block;
+    background: #cf8a8a;
+    color: white;
+  
+    padding: 8px 30px;
+    /* margin: 20px 0; */
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.register-btn:focus{
+    outline: none;
+}
+
+
+#LoginForm{
+    left:-300px;
+}
+
+#RegisterForm{
+    left: 0;
+}
+
+#Indicator{
+    width: 150px;
+    border: none;
+    background: #cf8a8a;
+    height: 3px;
+    /* padding: 0 20px; */
+    margin-left: 8px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+
+}
+ /* img span{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  span {
+    margin-bottom: -2px;
+  }
+
+forms span{
+    position: relative;
+      
+    align-content: center;
+    text-align: center; 
+    justify-content: center;
+} */
+/* .col2 forms{
+    top: 130px;
+    right: 100px;
+    align-content: center;
+    text-align: center;
+    /* padding: 10px 10px; 
+    position: absolute;
+} 
+*/
+
+
+/* UPDATE/ADD/Delete product */
+.changeproductpage{
+    position: static;
+      top: 0;
+      left: 0;
+}
+
+
+.add-btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+    text-decoration: none;
+    display: inline-block;
+    background: #cf8a8a;
+    color: white;
+  
+    padding: 8px 30px;
+    /* margin: 20px 0; */
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.add-btn:focus{
+    outline: none;
+}
+
+.update-btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+    text-decoration: none;
+    display: inline-block;
+    background: #cf8a8a;
+    color: white;
+  
+    padding: 8px 30px;
+    /* margin: 20px 0; */
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.update-btn:focus{
+    outline: none;
+}
+
+.delete-btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+    text-decoration: none;
+    display: inline-block;
+    background: #cf8a8a;
+    color: white;
+  
+    padding: 8px 30px;
+    /* margin: 20px 0; */
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.delete-btn:focus{
+    outline: none;
+}
+
+
+#addProductForm{
+    left:-300px;
+}
+
+#deleteProductForm{
+    left: 0;
+}
+
+.radio{
+  
+    width:24px;
+    height:24px;
+    position:relative;
+    top:6px;
+    /* display: inline-block; */
+}
+.genderr{
+    white-space: nowrap;
+    display: inline-block;
+}

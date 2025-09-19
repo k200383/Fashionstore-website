@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{ 
+    width: 20%; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 125px;
+    /* shape-outside: circle(); */
+    border: 0px;
+    border-radius: 50%;
+    /* position: sticky; */
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+   /* align-items: center; */
+    /* padding: 5px 60px; */
+    /* background-color: pink; */
+    /* justify-content: center; */
+}
+
+.navlist{
+    flex: 1;
+    /* width: 50%; */
+    /* background-color:brown; */
+    /* list-style-type: none; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: flex; */
+    text-align: right;
+    list-style: none;
+}
+
+/* .navlist li{
+    /* display: inline-block; */
+    /* list-style: none; */
+    /* padding:23px; */
+    /* padding: 26px 30px; 
+    margin-right: 20px;
+}
+*/
+
+.navlist li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: brown;
+    /* color: white; */
+}
+
+.navlist li a:hover{
+    color: black;
+    /* color:brown; */
+}
+
+.p{
+    color: white;
+}
+
+.container{
+    height: 80px;
+    max-width: 1300px;
+    margin: auto;
+    background-color: #ffd6d6;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+/* .rightnav{
+    /* width: 50%; */
+    /* background-color: brown; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: bisque; */
+    /* text-align: right;
+    padding: 0 23px; 
+} */
+
+/* .header{
+    background: radial-gradient(#fff, #ffd6d6);
+} */
+
+.background{
+    background: rgba(0,0,0,0.7) url('../image/sale3.png'); 
+    /* /* background: url('../image/bg3.jpg');  */
+    background-size: cover;
+    background-blend-mode: lighten;
+    /* max-width: 100%; */
+    padding: 50px 0;
+    height: 100vh; 
+    
+}
